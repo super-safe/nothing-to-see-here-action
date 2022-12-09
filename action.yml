@@ -1,0 +1,7 @@
+name: "Nothing to see here"
+description: "Do you even remember why you added this to your repo?"
+runs:
+  using: "composite"
+  steps:
+    - run: echo You bin pwned.
+      shell: bash
